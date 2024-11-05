@@ -38,6 +38,7 @@ a:active{
 header,
 footer {
   background-color: #d7d7d7;
+  padding: 0 20px;
 }
 
 nav,
@@ -51,11 +52,6 @@ h2 {
 
 p {
   margin: 0;
-}
-
-header,
-footer {
-  padding: 0 20px;
 }
 
 header {
