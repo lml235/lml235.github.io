@@ -6,7 +6,7 @@ body{
   background-color: #eee;
 }
 
-a,
+
 a:link {
   color: #5B5B71;
 }
@@ -37,7 +37,9 @@ body {
   grid-gap: 20px;
   grid-template-areas:
     "masthead    masthead"
-    "navigation  welcome"
+    "navigation  introduction"
+    "geography   geography"
+    "government   government"
     "copyright   copyright";
 }
 
@@ -62,8 +64,14 @@ nav {
   grid-area: navigation;
 }
 
-ain {
-  grid-area: welcome;
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  grid-template-areas:
+  "navigation  introduction"
+  "geography   geography"
+  "government   government";
 }
 
 section {
