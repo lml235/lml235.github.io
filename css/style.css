@@ -69,9 +69,21 @@ main {
   grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
   grid-template-areas:
-  "navigation  introduction"
-  "geography   geography"
-  "government   government";
+  "introduction"
+  "geography"
+  "government";
+}
+
+#introduction {
+  grid-area: introduction;
+}
+
+#geography {
+  grid-area: geography;
+}
+
+#government {
+  grid-area: government;
 }
 
 section {
