@@ -41,3 +41,15 @@ header {
 nav {
   grid-area: navigation;
 }
+
+ain {
+  grid-area: welcome;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  grid-area: copyright;
+}
