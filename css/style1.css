@@ -11,7 +11,6 @@ body{
   grid-template-columns: 1fr 3fr;
   grid-gap: 20px;
   grid-template-areas:
-    "masthead    masthead"
     "navigation  introduction"
     "geography   geography"
     "government   government"
@@ -47,7 +46,7 @@ section {
 }
 
 h1 {
-  font-weight: bold;
+  font-size: 75px;
   font-family: 'Noto Serif', Arial, sans-serif;
 }
 
@@ -57,6 +56,10 @@ h2 {
 
 p {
   margin-bottom: 0;
+}
+
+masthead {
+  grid-area: masthead;
 }
 
 nav {
