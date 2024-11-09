@@ -83,6 +83,11 @@ main {
   grid-area: government;
 }
 
+#government table {
+  border: 1px solid #5B5B71;
+  padding-left: 16px;
+}
+
 section {
   padding: 20px;
 }
