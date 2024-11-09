@@ -9,8 +9,17 @@ body{
   margin: 20px auto;
 }
 
-#box {
-  width: 1000px;
-  height: 300px;
+#header {
+  width: 100%;
+  height: 5%;
   overflow: hidden;
+}
+
+h1 {
+  font-family: 'Noto Serif', Arial, sans-serif;
+}
+
+table {
+  background-color: #F4F4F4;
+  border: 1px solid #5B5B71;
 }
