@@ -44,13 +44,15 @@ ul {
 nav{
   font-family: "Julius Sans One", "Arial", sans-serif;
   font-weight: bold;
-  
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
 
   background-color: #c5c9e5;
   padding: 0 10px;
   max-width:100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  margin: auto
 }
