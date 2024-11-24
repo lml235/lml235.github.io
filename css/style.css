@@ -23,7 +23,6 @@ a:hover {
 
 a:active{
   color: #DFE0ED
-  text-decoration: none;
 }
 
 header{
@@ -44,6 +43,7 @@ ul {
 
 nav{
   font-family: "Julius Sans One", "Arial", sans-serif;
+  font-weight: bold;
   
   display: flex;
   flex-direction: row;
