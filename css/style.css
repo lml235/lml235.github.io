@@ -23,10 +23,11 @@ ul {
 
 nav{
   display: flex;
-  justify-content: space-around;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 
-  background-color: #eaedff;
+  background-color: #c5c9e5;
   padding: 0 10px;
   max-width:100%;
 }
