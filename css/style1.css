@@ -10,6 +10,7 @@ body {
   grid-template-areas:
     "masthead    masthead"
     "navigation  welcome"
+    "photos      photos"
     "copyright   copyright";
 }
 
