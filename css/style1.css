@@ -55,3 +55,23 @@ section {
 footer {
   grid-area: copyright;
 }
+
+a,
+a:link {
+  color: #5B5B71;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7E797D; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BF838D;
+  text-decoration: none;
+}
+
+a:active{
+  color: #DFE0ED
+}
