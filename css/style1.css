@@ -37,6 +37,10 @@ footer {
 }
 
 header {
+  font-family: "Julius Sans One", "Arial", sans-serif;
+  font-size: 35px;
+
+  background-color: #eaedff;
   grid-area: masthead;
 }
 
