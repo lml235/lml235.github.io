@@ -98,7 +98,7 @@ nav ul {
   min-height: 48px;
 }
 
-nav ul li ul{
-  padding-bottom: 20px;
+#subnav{
+  padding: 20px;
 }
 
