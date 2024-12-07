@@ -58,6 +58,7 @@ nav {
 
 main {
   grid-area: welcome;
+  background-color: #eaedff;
 }
 
 section {
