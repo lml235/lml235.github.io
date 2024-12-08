@@ -69,8 +69,11 @@ footer {
   grid-area: copyright;
 }
 
-nav a,
-a:link {
+header a{
+  text-decoration: none;
+}
+
+nav a {
   text-decoration: none;
 }
 
