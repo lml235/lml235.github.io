@@ -10,7 +10,6 @@ body {
   grid-template-areas:
     "masthead    masthead"
     "navigation  welcome"
-    "photos      photos"
     "copyright   copyright";
 }
 
@@ -68,6 +67,10 @@ section {
 
 footer {
   grid-area: copyright;
+}
+
+main a{
+  text-decoration: underline;
 }
 
 a,
