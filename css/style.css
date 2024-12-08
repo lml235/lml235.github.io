@@ -69,7 +69,7 @@ footer {
   grid-area: copyright;
 }
 
-main a{
+main section a{
   text-decoration: underline;
 }
 
