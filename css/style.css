@@ -69,13 +69,10 @@ footer {
   grid-area: copyright;
 }
 
-main section a{
-  text-decoration: underline;
-}
 
 a,
 a:link {
-  color: #5B5B71;
+  color: #c5c9e5;
   text-decoration: none;
 }
 
